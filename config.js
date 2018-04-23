@@ -1,8 +1,8 @@
 module.exports = {
-    consumer_key: '',
-    consumer_secret: '',
-    access_token: '',
-    access_token_secret: ''
+    consumer_key: '',       //Consumer Key (API Key)
+    consumer_secret: '',    //Consumer Secret (API Secret
+    access_token: '',	    //Access Token
+    access_token_secret: '', //Access Token Secret
+	
+	filter: '' //Write the things that should give out.
 }
-
-// Get it here: https://apps.twitter.com/

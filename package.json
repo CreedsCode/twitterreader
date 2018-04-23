@@ -1,7 +1,8 @@
 {
-  "name": "gladosreadstweets",
+  "name": "TwitterReader",
   "version": "1.0.0",
-  "description": "GLaDOs from Portal 2 reads the Tweets from Twitter.",
+  "homepage": "https://github.com/CreedsCode/twitterreader#readme"
+  "description": "TTS Read a Twitter Stream with custom tags!",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"

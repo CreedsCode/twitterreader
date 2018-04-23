@@ -6,10 +6,10 @@ var fifo = require('fifo')();
 var Twitter = new twit(config);
 
 var work = false;
-
+console.log(config.filter);
 var Rueckgabe = 0;
 													//Twitter Search Filter
-var stream = Twitter.stream('statuses/filter', { track: '@CreedGamesOA' })
+var stream = Twitter.stream('statuses/filter', { track: config.filter })
 
 
 
