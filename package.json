@@ -1,0 +1,16 @@
+{
+  "name": "gladosreadstweets",
+  "version": "1.0.0",
+  "description": "GLaDOs from Portal 2 reads the Tweets from Twitter.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Dercio Hoffmann (CreedsCode)",
+  "license": "ISC",
+  "dependencies": {
+    "fifo": "^2.3.0",
+    "say": "^0.14.0",
+    "twit": "^2.2.9"
+  }
+}
